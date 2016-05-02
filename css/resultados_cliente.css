@@ -1,0 +1,52 @@
+
+
+
+.navbar .logo{
+  width:40px;
+  height:50px;
+}
+.navbar-brand{
+  padding:0px;
+}
+.navbar-default{
+  background-color:#ddd;
+}
+.navbar .logo{
+  width:180px;
+  height:50px;
+}
+.fichas-listado-v2{
+   margin-bottom:3% ;
+  margin-left:33%;
+ 
+}
+
+.fichas-listado-v2 .voto .voto-estrellas{
+  display: block;
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  width: 50%;
+  margin-top: 40px;
+}
+.fichas-listado-v2 .voto .voto-estrellas i{
+  color: #d41217;
+  font-size: 53px;
+  padding-right: 3px;
+}
+
+.fichas-listado-v2 .voto .voto-estrellas i:hover{
+  cursor: pointer;
+  color: #d41217;
+}
+.fichas-listado-v2 .voto .voto-estrellas i .fa-star,
+.fichas-listado-v2 .voto .voto-estrellas:hover i{
+  color: #c0c0c0;
+}
+.fichas-listado-v2 .voto .voto-estrellas:hover i:before{
+  content: "\f005";
+}
+.fichas-listado-v2 .voto .voto-estrellas i .fa-star-o:hover:before,
+.fichas-listado-v2 .voto .voto-estrellas i:hover ~ i:before{
+  content: "\f005";
+  color: #d41217;
+}
